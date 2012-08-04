@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<author>
+		<name>David Tsao</name>
+		<email>davidtsao@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Facebook</title>
+		<content></content>
+		<apps:property name='from' value='facebook.com  OR facebookmail.com'/>
+		<apps:property name='label' value='Facebook'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Twitter</title>
+		<content></content>
+		<apps:property name='from' value='twitter.com'/>
+		<apps:property name='label' value='Twitter'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Flights</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='from:(united.com OR
+							virginamerica.com OR
+							aa.com OR
+							southwest.com OR
+							delta.com OR
+							airtran.com OR
+							jetblue.com OR
+							alaskaair.com OR
+							flyasa.com OR
+							frontierairlines.com OR
+							hawaiianairlines.com OR
+							usairways.com)'/>
+		<apps:property name='label' value='Flights'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Calendar</title>
+		<content></content>
+		<apps:property name='from' value='calendar-notification@google.com'/>
+		<apps:property name='label' value='Calendar'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Amazon Shipping</title>
+		<content></content>
+		<apps:property name='from' value='ship-confirm@amazon.com'/>
+		<apps:property name='label' value='Shipping'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Shipping</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;shipping confirmation&quot; |
+							&quot;order has shipped&quot; |
+							&quot;tracking number&quot; |
+							&quot;tracking link&quot;'/>
+		<apps:property name='label' value='Shipping'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Receipts</title>
+		<content></content>
+		<apps:property name='hasTheWord' value='receipt'/>
+		<apps:property name='label' value='Receipts'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Amazon</title>
+		<content></content>
+		<apps:property name='from' value='auto-confirm@amazon.com'/>
+		<apps:property name='label' value='Receipts'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>LinkedIn</title>
+		<content></content>
+		<apps:property name='from' value='linkedin.com'/>
+		<apps:property name='label' value='LinkedIn'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed>
