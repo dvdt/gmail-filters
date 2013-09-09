@@ -1,6 +1,6 @@
 Gmail filters that help manage your inbox. 
 
-Read the [blog post](http://www.davetsao.com/blog/2012/08/01/productive-gmail-filtering/)
+Read the [blog post](http://davetsao.com/blog/2012/08/01/download-my-gmail-filters/)
 
 Install
 ----
